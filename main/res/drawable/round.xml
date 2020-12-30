@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    android:padding="10dp"
+    android:shape="rectangle">
+
+    <solid android:color="#F7EB07" />
+    <!--    배경색 설정 -->
+
+    <!-- 각 모서리 라운딩 설정 -->
+    <corners
+        android:bottomLeftRadius="1000dp"
+        android:bottomRightRadius="1000dp"
+        android:topLeftRadius="1000dp"
+        android:topRightRadius="1000dp" />
+    <!-- 좌측 여백 -->
+    <padding
+        android:left="5dp"
+        />
+
+
+</shape>
